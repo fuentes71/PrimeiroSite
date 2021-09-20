@@ -1,0 +1,93 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    background-color: azure;
+    background-position: center;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #232325;
+    height: 30px;
+}
+
+main {
+    margin: 0;
+    position: relative;
+}
+
+.logo {
+    padding-top: 50px;
+    margin-left: 7vw;
+}
+
+.logo img {
+    position: relative;
+    width: 40%;
+    height: 40%;
+    margin-left: 25%;
+    padding-top: 5px;
+}
+
+.texto p {
+    position: relative;
+    font-size: 20px;
+    margin-left: 28%;
+    color: #000000;
+}
+
+.texto h1 {
+    position: relative;
+    font-size: 37px;
+    margin-left: 25%;
+    color: #242424
+}
+
+ul {
+    padding: 0px !important;
+}
+
+.buttom ul {
+    position: absolute;
+    font-size: 30px;
+    margin-left: 42%;
+    border-radius: 3px;
+    color: #fefefe;
+    display: inline-block;
+    height: 35px;
+}
+
+.buttom ul li a {
+    color: #212121;
+}
+
+.buttom ul li a:hover {
+    color: #00bac6
+}
+
+@media only screen and (max-width: 480px) {
+    .logo img {
+        position: relative;
+        width: 50%;
+        height: 50%;
+    }
+    .texto p {
+        margin-left: 20%;
+        font-size: 15px
+    }
+    .texto h1 {
+        float: center;
+        position: absolute;
+        font-size: 40px;
+    }
+    .buttom p {
+        font-size: 25px;
+        margin-top: 40vw;
+    }
+    .buttom {
+        margin-top: 35vw;
+    }
+    .mapa {
+        opacity: 0;
+    }
+}

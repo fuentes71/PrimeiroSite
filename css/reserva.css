@@ -1,0 +1,164 @@
+body {
+    width: 100%;
+    margin: 0 auto;
+    background-color: azure;
+}
+
+ul {
+    padding: 0px !important;
+}
+
+.Menu-principal {
+    width: 100%;
+    background-color: #1c1c1c;
+    height: 30px;
+}
+
+main {
+    margin: 0 auto;
+    width: 680px;
+    position: relative;
+}
+
+.logo {
+    padding: 8px;
+}
+
+.header-2 {
+    width: 680px;
+    margin: 0 auto;
+}
+
+.menu-url {
+    width: 100%;
+    height: 30px;
+    border-bottom: 3px solid #efefef;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: #5e5b5b;
+    margin-left: 20px;
+    height: 30px;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+}
+
+.menu ul li a:hover {
+    color: #00bac6;
+}
+
+.menu ul li a {
+    color: #5e5b5b;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: left;
+}
+
+.menu {
+    float: center;
+    left: 15%
+}
+
+.bloco-reserva {
+    width: 100%;
+    background-color: #1c1c1c;
+    position: relative;
+    height: 100%;
+}
+
+.menu-descricao {
+    display: inline-block;
+    color: #767676;
+    margin-left: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.pacotes {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.basico h1 {
+    position: relative;
+    background: #413f3f;
+    padding: 20px 0;
+    color: #fff;
+    border-radius: 10px;
+    z-index: 99;
+}
+
+.gold h1 {
+    position: relative;
+    background: goldenrod;
+    padding: 20px 0;
+    color: #fff;
+    border-radius: 10px;
+    z-index: 99;
+}
+
+.premium h1 {
+    position: relative;
+    background: #228f65;
+    padding: 20px 0;
+    color: #fff;
+    border-radius: 10px;
+    z-index: 99;
+}
+
+.descricao1 {
+    position: relative;
+    color: #fff;
+    background: lightslategray;
+    padding: 10px 0;
+    border-radius: 5px;
+    padding: 5px 0;
+    transform: translateY(-95%) scaleY(0);
+    transition: 1s;
+}
+
+.descricao2 {
+    position: relative;
+    color: #fff;
+    background: lightslategray;
+    padding: 10px 0;
+    border-radius: 5px;
+    padding: 5px 0;
+    transform: translateY(-95%) scaleY(0);
+    transition: 1s;
+}
+
+.descricao3 {
+    margin-top: 10px;
+    position: relative;
+    color: #fff;
+    background: lightslategray;
+    padding: 10px 0;
+    border-radius: 5px;
+    transform: translateY(-100%) scaleY(0);
+    transition: 1s;
+    padding: 5px 0;
+}
+
+.basico h1:hover~.descricao1 {
+    transform: translateY(0) scaleY(1);
+}
+
+.gold h1:hover~.descricao2 {
+    transform: translateY(0) scaleY(1);
+}
+
+.premium h1:hover~.descricao3 {
+    transform: translateY(0) scaleY(1);
+}
+
+.pacotes h1 {
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
